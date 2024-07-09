@@ -1,0 +1,7 @@
+.DS_Store
+.Trashes
+.vscode/
+_pycache_/
+*.log
+.env
+
