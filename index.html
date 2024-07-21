@@ -5,13 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="n_styles.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Expense Tracker</h1>
+    <h1>Welcome to Expense Tracker 1</h1>
+
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+    </div>
+
+    <button id="submitBtn">Submit</button>
+    <p id="message" class="hidden">Thank you for submitting your details!</p>
+
     <p><a href="register.html">Register</a></p>
     <p><a href="login.html">Login</a></p>
     <p><a href="add_expense.html">Add Expense</a></p>
     <p><a href="edit_expense.html">Edit Expense</a></p>
     <p><a href="view_expense.html">View Expense</a></p>
+    
+    <script src="script.js"></script>
 </body>
 </html>
