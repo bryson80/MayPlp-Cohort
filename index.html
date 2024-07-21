@@ -9,6 +9,10 @@
         .hidden {
             display: none;
         }
+        #chartContainer {
+            width: 80;
+            margin: 20px auto;
+        }
     </style>
 </head>
 <body>
@@ -31,7 +35,14 @@
     <p><a href="add_expense.html">Add Expense</a></p>
     <p><a href="edit_expense.html">Edit Expense</a></p>
     <p><a href="view_expense.html">View Expense</a></p>
-    
+
+    <!-- Canvas element for Chart.js-->
+    <div id="chartContainer">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <!-- Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
